@@ -1,0 +1,24 @@
+{
+  "name": "fumo-api",
+  "version": "1.0.0",
+  "description": "an api to obtain images of fumos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vic0005/fumo-api.git"
+  },
+  "keywords": [
+    "fumo",
+    "api",
+    "images"
+  ],
+  "author": "Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vic0005/fumo-api/issues"
+  },
+  "homepage": "https://github.com/Vic0005/fumo-api#readme"
+}

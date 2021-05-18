@@ -1,2 +1,2 @@
 # fumo-api
-a fumo api for gete fumo images
+an api to obtain images of fumos

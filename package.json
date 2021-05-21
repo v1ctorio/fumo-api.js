@@ -1,6 +1,6 @@
 {
   "name": "fumo-api",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "an api to obtain images of fumos",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Vic0005/fumo-api/issues"
   },
-  "homepage": "https://github.com/Vic0005/fumo-api#readme"
+  "homepage": "https://github.com/Vic0005/fumo-api#readme",
+  "dependencies": {
+    "mongodb": "^3.6.7",
+    "mongoose": "^5.12.10"
+  }
 }

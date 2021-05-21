@@ -104,3 +104,4 @@ dist
 .tern-port
 #prueba
 /prueba.js
+/node_modules/

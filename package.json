@@ -1,6 +1,6 @@
 {
-  "name": "fumo-api",
-  "version": "2.0.0",
+  "name": "@vic005/fumo-api",
+  "version": "2.0.3.1",
   "description": "an api to obtain images of fumos",
   "main": "index.js",
   "scripts": {

@@ -105,3 +105,4 @@ dist
 #prueba
 /prueba.js
 /node_modules/
+.npmrc

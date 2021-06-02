@@ -1,16 +1,15 @@
 const mongodb = require('mongodb')
 const mongoose = require('mongoose');
 const schema  = require('./model');
-
-mongoose.connect('mongodb+srv://usuario:nosejajasosusuario@fumos.mbcko.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+const databaseurl = 'mongodb+srv://usuario:nosejajasosusuario@fumos.mbcko.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+mongoose.connect(databaseurl, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-}, async (err, db) => {
-    if (err) console.error(err); else {
-
-        var conectadoadb = true
-    }
-})
+}
+)
+const db = mongoose.connection
+db.on('error', error => console.error(error))
+db.once('open', MONGO_URI => console.log('Connected to Database'))
 /* 
                                    ADVICE!!
     the package works with mongoose & whith the user "usuario" & the password "nosejajasosusuario"

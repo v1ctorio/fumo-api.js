@@ -9,7 +9,7 @@ mongoose.connect(databaseurl, {
 )
 const db = mongoose.connection
 db.on('error', error => console.error(error))
-db.once('open', MONGO_URI => console.log('Connected to Database'))
+//db.once('open', MONGO_URI => console.log('Connected to Database'))
 /* 
                                    ADVICE!!
     the package works with mongoose & whith the user "usuario" & the password "nosejajasosusuario"

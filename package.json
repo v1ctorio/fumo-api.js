@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vic0005/fumo-api.git"
+    "url": "git+https://github.com/Nosesisaid/fumo-api.git"
   },
   "keywords": [
     "fumo",
@@ -18,9 +18,9 @@
   "author": "Vic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Vic0005/fumo-api/issues"
+    "url": "https://github.com/Nosesisaid/fumo-api/issues"
   },
-  "homepage": "https://github.com/Vic0005/fumo-api#readme",
+  "homepage": "https://github.com/Nosesisaid/fumo-api#readme",
   "dependencies": {
     "mongodb": "^3.6.7",
     "mongoose": "^5.12.10"

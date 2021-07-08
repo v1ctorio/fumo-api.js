@@ -1,4 +1,5 @@
-var fumo = require('./index.js')
+const { connect } = require('mongoose')
+var fumo = require('./index')
 
 fumo().then((fumourl) => {
     console.log(fumourl)

@@ -1,6 +1,6 @@
 {
   "name": "fumo-api",
-  "version": "2.1.6",
+  "version": "3.0.0",
   "description": "an api to obtain images of fumos",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/Nosesisaid/fumo-api#readme",
   "dependencies": {
-    "mongodb": "^3.6.7",
-    "mongoose": "^5.12.10"
+    "node-fetch": "^2.6.1"
   }
 }

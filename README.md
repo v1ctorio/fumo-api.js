@@ -1,24 +1,29 @@
 # fumo-api
 The first api to obtain images of fumos
-## Website
-https://www.npmjs.com/package/fumo-api
+
 ## Install 
 instal is simple just use `npm i fumo-api`
 ## How to use 
- for the moment it only has one function
+ for the moment it only has three functions
 
- - fumo()
+ - randomFumo(allData)
+ - allFumos()
+ - getFumoByID(id, allData)
 
- use `fumo()` to get a random fumo from the library 
+ use `randomFumo()` to get a random fumo from the library, if you want the full fumo object use `randomFumo(true)`
+
+ use `allFumos()` to get the list of all fumos 
+ 
+ use `getFumoByID(id)` to get a fumo by it's id
 
 
  
  ## Example 
  here is an example for use fumo-api
  ```js
- const fumo = require('fumo-api') 
+ const {randomFumo} = require('fumo-api') 
 
-fumo().then( (url) => {
+randomFumo().then( (url) => {
     console.log(url)
 })
  ```

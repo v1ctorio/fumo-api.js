@@ -2,7 +2,7 @@
 The first api to obtain images of fumos
 
 ## Install 
-instal is simple just use `npm i fumo-api`
+Install is simple, just use `npm i fumo-api`
 ## How to use 
  <a name="module_fumo-api"></a>
 
@@ -16,14 +16,14 @@ instal is simple just use `npm i fumo-api`
 <a name="module_fumo-api.allFumos"></a>
 
 ### fumo-api.allFumos() ⇒ <code>Object</code>
-Return a list whit all fumos
+Return a list with all fumos
 
 **Kind**: static method of [<code>fumo-api</code>](#module_fumo-api)
 **Returns**: <code>Object</code> - - List of fumos
 <a name="module_fumo-api.getFumoByID"></a>
 
 ### fumo-api.getFumoByID(id, [allData]) ⇒ <code>String</code> \| <code>Object</code>
-Get a fumo by it's id
+Get a fumo by their id
 
 **Kind**: static method of [<code>fumo-api</code>](#module_fumo-api)
 **Returns**: <code>String</code> \| <code>Object</code> - - Return the fumo url or object
@@ -43,13 +43,13 @@ Returns a random fumo url or complete data
 
 | Param | Type | Description |
 | --- | --- | --- |
-| [allData] | <code>Boolean</code> | if  true returns complete fumo object |
+| [allData] | <code>Boolean</code> | if true returns complete fumo object |
 
 
 
  
  ## Example 
- here is an example for use fumo-api
+ Here's an example for use fumo-api
  ```js
  const {randomFumo} = require('fumo-api') 
 

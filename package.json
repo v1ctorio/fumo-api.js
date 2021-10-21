@@ -3,6 +3,7 @@
   "version": "3.0.1",
   "description": "an api to obtain images of fumos",
   "main": "src/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "node tests/test.js"
   },

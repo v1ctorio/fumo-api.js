@@ -9,20 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nosesisaid/fumo-api.git"
+    "url": "git+https://github.com/victorioxd/fumo-api.js.git"
   },
   "keywords": [
     "fumo",
     "api",
-    "images"
+    "images",
+    "fumos",
+    "japanese",
+    "japan",
+    "memes"
   ],
   "author": "Vic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nosesisaid/fumo-api/issues"
+    "url": "https://github.com/victorioxd/fumo-api.js/issues"
   },
   "type": "commonjs",
-  "homepage": "https://github.com/Nosesisaid/fumo-api#readme",
+  "homepage": "https://github.com/victorioxd/fumo-api.js#readme",
   "dependencies": {
   },
   "devDependencies": {

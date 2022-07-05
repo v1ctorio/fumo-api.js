@@ -3,9 +3,11 @@
   "version": "3.0.4",
   "description": "an api to obtain images of fumos",
   "main": "src/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./src/types/index.d.ts",
   "scripts": {
-    "test": "node tests/test.js"
+    "test": "jest",
+    "lint": "eslint src tests",
+    "lint:fix": "eslint src tests --fix"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,11 @@
   "type": "commonjs",
   "homepage": "https://github.com/victorioxd/fumo-api.js#readme",
   "dependencies": {
+    "axios": "0.27.2"
   },
   "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-google": "0.14.0",
+    "jest": "28.1.2"
   }
 }

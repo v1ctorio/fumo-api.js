@@ -24,9 +24,7 @@
   "type": "commonjs",
   "homepage": "https://github.com/Nosesisaid/fumo-api#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "@types/node-fetch": "^2.5.12"
   }
 }

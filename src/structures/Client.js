@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require("axios");
 /**
  * @class FumoClient
  */
@@ -6,7 +6,7 @@ class FumoClient {
   /**
    * @param {{endpoint: String}} options
    */
-  constructor(options = {endpoint : 'https://fumo-api.nosesisaid.me/'}) {
+  constructor(options = { endpoint: "https://fumo-api.nosesisaid.me/" }) {
     this.endpoint = options.endpoint;
   }
   /**
@@ -14,19 +14,19 @@ class FumoClient {
    */
   async random() {
     const req = await axios({
-      method : 'get',
-      url : this.endpoint + 'random',
+      method: "get",
+      url: this.endpoint + "random",
     });
     return req.data;
-  };
+  }
   /**
    * @param {string} id
    * @return {Promise<Object>}
    */
   async specific(id) {
     const req = await axios({
-      method : 'get',
-      url : this.endpoint + 'fumo/' + id,
+      method: "get",
+      url: this.endpoint + "fumo/" + id,
     });
     return req.data;
   }
@@ -35,8 +35,8 @@ class FumoClient {
    */
   async all() {
     const req = await axios({
-      method : 'get',
-      url : this.endpoint,
+      method: "get",
+      url: this.endpoint,
     });
     return req.data;
   }

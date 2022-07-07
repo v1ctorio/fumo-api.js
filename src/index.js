@@ -1,3 +1,3 @@
-const FumoClient = require('./structures/Client');
+const FumoClient = require("./structures/Client");
 
 exports.FumoClient = FumoClient;

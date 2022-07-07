@@ -1,59 +1,26 @@
 # fumo-api
-The first api to obtain images of fumos
+[![Tests](https://github.com/victorioxd/fumo-api.js/actions/workflows/tests.yml/badge.svg)](https://github.com/victorioxd/fumo-api.js/actions/workflows/tests.yml)
+
+Official API wrapper fo the [Fumo API](https://github.com/Nosesisaid/fumo-api).
+![FumoApi-js banner](https://repository-images.githubusercontent.com/368607004/396b7aca-535a-46a4-a61e-707bba974cd3)
 
 ## Install 
-Install is simple, just use `npm i fumo-api`
-## How to use 
- <a name="module_fumo-api"></a>
+Install is simple, `yarn add fumo-api`/`npm install fumo-api`
 
+## How to use example
+Get a random fumo
+```js
+const {FumoClient} = require('fumo-api')
+const fumos = new FumoClient()
 
-
-* [fumo-api](#module_fumo-api)
-    * [.allFumos()](#module_fumo-api.allFumos) ⇒ <code>Object</code>
-    * [.getFumoByID(id, [allData])](#module_fumo-api.getFumoByID) ⇒ <code>String</code> \| <code>Object</code>
-    * [.randomFumo([allData])](#module_fumo-api.randomFumo) ⇒ <code>Object</code> \| <code>String</code>
-
-<a name="module_fumo-api.allFumos"></a>
-
-### fumo-api.allFumos() ⇒ <code>Object</code>
-Return a list with all fumos
-
-**Kind**: static method of [<code>fumo-api</code>](#module_fumo-api)
-**Returns**: <code>Object</code> - - List of fumos
-<a name="module_fumo-api.getFumoByID"></a>
-
-### fumo-api.getFumoByID(id, [allData]) ⇒ <code>String</code> \| <code>Object</code>
-Get a fumo by their id
-
-**Kind**: static method of [<code>fumo-api</code>](#module_fumo-api)
-**Returns**: <code>String</code> \| <code>Object</code> - - Return the fumo url or object
-
-| Param | Type | Description |
-| --- | --- | --- |
-| id | <code>String</code> | fumo's id |
-| [allData] | <code>Boolean</code> | if ant the full oject or only url |
-
-<a name="module_fumo-api.randomFumo"></a>
-
-### fumo-api.randomFumo([allData]) ⇒ <code>Object</code> \| <code>String</code>
-Returns a random fumo url or complete data
-
-**Kind**: static method of [<code>fumo-api</code>](#module_fumo-api)
-**Returns**: <code>Object</code> \| <code>String</code> - - the random fumo url or object
-
-| Param | Type | Description |
-| --- | --- | --- |
-| [allData] | <code>Boolean</code> | if true returns complete fumo object |
-
-
-
- 
- ## Example 
- Here's an example for use fumo-api
- ```js
- const {randomFumo} = require('fumo-api') 
-
-randomFumo().then( (url) => {
-    console.log(url)
+fumos.random().then(fumo => {
+  console.log(fumo)
 })
- ```
+```
+Use a custom baseURL
+```js
+const {FumoClient} = require('fumo-api')
+const fumos = new FumoClient({endpoint: 'https://customdb.example.com/'})
+```
+
+Thanks for using fumo-api!

@@ -1,0 +1,10 @@
+env:
+  commonjs: true
+  node: true
+extends:
+  - google
+parserOptions:
+  ecmaVersion: 2021
+rules:
+  linebreak-style: off
+  object-curly-spacing: off

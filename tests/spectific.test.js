@@ -1,4 +1,4 @@
-const FumoClient = require('../src/index');
+const {FumoClient} = require('../src/index');
 
 const client = new FumoClient();
 const fumo1 = {

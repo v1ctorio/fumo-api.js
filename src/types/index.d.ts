@@ -5,7 +5,7 @@ export interface Fumo {
     caption: string | null;
 }
 
-export default class Client {
+export class FumoClient {
     constructor(data:{endpoint: string});
     public specific(id: string): Promise<Fumo>;
     public all(): Promise<Fumo[]>;

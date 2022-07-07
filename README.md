@@ -1,4 +1,6 @@
 # fumo-api
+[![Tests](https://github.com/victorioxd/fumo-api.js/actions/workflows/tests.yml/badge.svg)](https://github.com/victorioxd/fumo-api.js/actions/workflows/tests.yml)
+
 Official API wrapper fo the [Fumo API](https://github.com/Nosesisaid/fumo-api).
 ![FumoApi-js banner](https://repository-images.githubusercontent.com/368607004/396b7aca-535a-46a4-a61e-707bba974cd3)
 

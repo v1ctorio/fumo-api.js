@@ -6,7 +6,7 @@ class FumoClient {
   /**
    * @param {{endpoint: String}} options
    */
-  constructor(options = { endpoint: 'https://fumo-api.nosesisaid.me/' }) {
+  constructor(options = { endpoint: 'https://fumo-api.nosesisaid.com/' }) {
     this.endpoint = options.endpoint;
   }
   /**
